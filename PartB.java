@@ -53,7 +53,7 @@ public class PartB {
    }
 
 
-   // function to calculate sum probabilaties of current die and original die
+   // function to calculate sum probabilities of current die and original die
     private static double[] calculateSumProbabilities(int[] dieA, int[] dieB) {
         int numSides = dieA.length;
         double[] probabilities = new double[11]; // 11 possible sums (2 to 12)
@@ -68,7 +68,7 @@ public class PartB {
         return probabilities;
     }
 
-    // function to check if the sum probabilaties are equal
+    // function to check if the sum probabilities are equal
     private static boolean areArraysEqual(double[] array1, double[] array2) {
         if (array1.length != array2.length) {
             return false;
@@ -83,7 +83,7 @@ public class PartB {
         return true;
     }
 
-    // function to print the undoomed die satisfying all constrains
+    // function to print the undoomed die satisfying all constraints
     private static void undoom(int[] arrayA, int[] arrayB) {
         
         System.out.println("Undoomed Die Values:");
